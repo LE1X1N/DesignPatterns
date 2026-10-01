@@ -98,10 +98,10 @@
 
 
 ## 参考
-https://zhuanlan.zhihu.com/p/128145128
-https://www.jianshu.com/p/3268264ae581
-https://liaoxuefeng.com/books/java/design-patterns/index.html
-https://www.runoob.com/design-pattern/design-pattern-intro.html
+- https://zhuanlan.zhihu.com/p/128145128
+- https://www.jianshu.com/p/3268264ae581
+- https://liaoxuefeng.com/books/java/design-patterns/index.html
+- https://www.runoob.com/design-pattern/design-pattern-intro.html
 
 
 **其他语言版本: [English](README.md), [中文](README_zh.md)**

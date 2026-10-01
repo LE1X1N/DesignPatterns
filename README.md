@@ -96,10 +96,10 @@ Another way to express the Least Knowledge Principle is: only communicate with d
 Composition or aggregation can incorporate existing objects into new objects, making them part of the new object, so the new object can call upon the functionality of the existing objects.
 
 ## References
-https://zhuanlan.zhihu.com/p/128145128
-https://www.jianshu.com/p/3268264ae581
-https://liaoxuefeng.com/books/java/design-patterns/index.html
-https://www.runoob.com/design-pattern/design-pattern-intro.html
+- https://zhuanlan.zhihu.com/p/128145128
+- https://www.jianshu.com/p/3268264ae581
+- https://liaoxuefeng.com/books/java/design-patterns/index.html
+- https://www.runoob.com/design-pattern/design-pattern-intro.html
 
 
 **Read this in other language: [English](README.md), [中文](README_zh.md)**
