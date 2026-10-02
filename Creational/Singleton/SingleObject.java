@@ -10,6 +10,12 @@ public class SingleObject {
         return instance;
     }
 
+    // thread safe
+    
+    // public static synchronized SingleObject getInstance(){
+    //     return instance;
+    // }
+
     public void showMessage() {
         System.out.println("SingleObject::showMessage() methods");
     }
