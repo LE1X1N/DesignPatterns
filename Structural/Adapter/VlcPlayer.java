@@ -1,0 +1,14 @@
+package Structural.Adapter;
+
+public class VlcPlayer implements AdvancedMediaPlayer{
+    
+    @Override 
+    public void playMp4(String fileName){
+        // do nothing
+    }
+
+    @Override 
+    public void playVlc(String fileName){
+        System.out.println("Advanced Media Player (VLC Player) is playing: " + fileName);
+    }
+}
