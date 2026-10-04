@@ -1,7 +1,5 @@
 package Behavioral.ChainOfResponsibility;
 
-import java.util.logging.Level;
-
 public abstract class AbstractLogger {   // Handler
     public static int INFO = 1;
     public static int DEBUG = 2;
