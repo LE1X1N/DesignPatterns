@@ -1,0 +1,10 @@
+package Behavioral.Mediator;
+
+import java.util.Date;
+
+public class Chatroom { // mediator / concreate Mediator
+    
+    public static void showMessage(User user, String message){
+        System.out.println(new Date().toString() + " ["+ user.getName() +"]: " + message);
+    }
+}
