@@ -1,0 +1,18 @@
+package Behavioral.Visitor;
+
+public class Computer implements ComputerPart{
+    
+    ComputerPart[] parts;
+
+    public Computer(){
+        parts = new ComputerPart[] {new Mouse(), new Keyboard(), new Monitor()};
+    }
+
+    @Override 
+    public void accept(ComputerPartVisitor computerPartVisitor){
+        for (ComputerPart part : parts){
+            part.accept(computerPartVisitor);       // visitor visit each part
+        }   
+        computerPartVisitor.visit(this);            // visitor visit computer
+    }
+}
