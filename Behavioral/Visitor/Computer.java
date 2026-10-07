@@ -11,8 +11,8 @@ public class Computer implements ComputerPart{
     @Override 
     public void accept(ComputerPartVisitor computerPartVisitor){
         for (ComputerPart part : parts){
-            part.accept(computerPartVisitor);       // visitor visit each part
+            part.accept(computerPartVisitor);       // visitor visits each part
         }   
-        computerPartVisitor.visit(this);            // visitor visit computer
+        computerPartVisitor.visit(this);            // visitor visits computer
     }
 }
